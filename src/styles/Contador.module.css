@@ -1,0 +1,28 @@
+.contenedorContador{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 200px;
+    width: 400px;
+    
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+    
+    color: black;
+}
+
+.contador{
+    font-size: 70px;
+    opacity: 0.5;
+    pointer-events: none;
+    font-family:  Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.desactive{
+    display: none;
+}
